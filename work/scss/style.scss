@@ -1,0 +1,27 @@
+// Bootstrap required
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/root";
+
+// Bootstrap essentials
+@import "../bootstrap/scss/utilities";
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
+@import "../bootstrap/scss/images";
+@import "../bootstrap/scss/containers";
+@import "../bootstrap/scss/grid";
+@import "../bootstrap/scss/helpers";
+
+// Bootstrap optional
+@import "../bootstrap/scss/bootstrap-utilities";
+@import "../bootstrap/scss/nav";
+@import "../bootstrap/scss/navbar";
+@import "../bootstrap/scss/transitions";
+@import "../bootstrap/scss/card";
+@import "../bootstrap/scss/list-group";
+@import "../bootstrap/scss/buttons";
+
+// Mine egne styles
+@import "variables";
+@import "main";

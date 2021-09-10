@@ -1,0 +1,17 @@
+.bg-img {
+    background-image: url(img/jaguar-etype.jpg);
+    background-size: cover;
+    height: $size;
+    background-position: center
+}
+
+h1, h2, a {
+    font-family: 'Roboto Slab', serif;
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-img{
+        background-position: left;
+        height: ($size)-140px;
+    }
+  }
